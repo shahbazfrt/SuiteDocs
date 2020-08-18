@@ -59,3 +59,9 @@ Solution: Move collection file into `documents`.
 4 - Click Environment from the Drop down
 
 image:change_environment.png[Changing Environment]
+
+5 - Getting Access Token for API CALLS
+
+After creating [OAuth2 Clients and Tokens] From CRM you have to goto POSTMAN->AUTH->GET Access Token
+From here you will be asked to select GRANT TYPE, Select the type you have chosen while creating OAuth. 
+After that you will get access token. and simple select use this token in your requests. 
